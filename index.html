@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Le Tan Phong, Java Backend Developer"
+    />
+    <title>Le Tan Phong | Java Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main" class="dashboard">
+      <header class="topbar" aria-label="Main navigation">
+        <nav>
+          <ul class="nav-list" role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#objective">About Me</a></li>
+            <li><a href="#skills">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="chat-btn" href="#contact">Let's Chat</a>
+      </header>
+
+      <section id="home" class="panel panel--hero" aria-labelledby="home-title">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow hero-kicker">Hi! I'm Le Tan Phong</p>
+            <h1 id="home-title">Java Backend Developer</h1>
+            <div class="hero-stack" role="list" aria-label="Tech stack highlights">
+              <span class="chip" role="listitem">Java</span>
+              <span class="chip" role="listitem">Spring Boot</span>
+              <span class="chip" role="listitem">Spring Security</span>
+              <span class="chip" role="listitem">REST API</span>
+              <span class="chip" role="listitem">WebSocket</span>
+              <span class="chip" role="listitem">MySQL</span>
+              <span class="chip" role="listitem">MongoDB</span>
+              <span class="chip" role="listitem">Docker</span>
+              <span class="chip" role="listitem">Git</span>
+            </div>
+            <p class="hero-text">
+              A backend developer focused on database design, performance
+              optimization, and building stable real-time systems for
+              large-scale products.
+            </p>
+
+            <div
+              class="action-row action-row--hero"
+              role="group"
+              aria-label="Quick actions"
+            >
+              <a class="btn" href="#contact">Hire Me</a>
+              <a
+                class="btn btn--ghost"
+                href="CV/Le-Tan-Phong-TopCV.vn-080626.234018.pdf"
+                download
+                >Download CV</a
+              >
+              <a
+                class="btn btn--ghost"
+                href="CV/Le-Tan-Phong-TopCV.vn-080626.234018.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View Resume</a
+              >
+            </div>
+
+            <div class="hero-links" role="list" aria-label="Professional links">
+              <a
+                class="text-link text-link--chip"
+                href="https://github.com/LeTanPhong3003"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                >GitHub</a
+              >
+              <a
+                class="text-link text-link--chip"
+                href="https://www.linkedin.com/in/le-tan-phong-257750391"
+                target="_blank"
+                rel="noopener noreferrer"
+                role="listitem"
+                >LinkedIn</a
+              >
+              <a class="text-link text-link--chip js-copy-email" href="#" data-email="letanphong400@gmail.com" role="listitem" aria-label="Copy email address">Email</a>
+            </div>
+
+            <dl class="stats-row" aria-label="Quick stats">
+              <div>
+                <dt>Java</dt>
+                <dd>Backend stack</dd>
+              </div>
+              <div>
+                <dt>2+</dt>
+                <dd>Featured projects</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <img
+              class="hero-image"
+              src="img/avatar.jpg"
+              alt="Avatar of Le Tan Phong"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="objective" class="panel" aria-labelledby="objective-title">
+        <h2 id="objective-title">About Me</h2>
+        <p class="section-lead">
+          A concise overview of my focus, background, and the direction I am
+          building toward as a backend developer.
+        </p>
+
+        <div class="about-grid">
+          <article class="info-card info-card--accent">
+            <h3>Career Objective</h3>
+            <p>
+              Java Backend developer passionate about designing scalable APIs,
+              optimizing database performance, and building reliable distributed
+              systems. Seeking an internship where I can contribute while
+              continuously improving my backend engineering skills.
+            </p>
+          </article>
+
+          <article class="info-card">
+            <header class="card-head">
+              <h3>Education</h3>
+              <span class="card-pill">09/2022 - 01/2027</span>
+            </header>
+            <ul role="list" class="compact-list">
+              <li>Industrial University of Ho Chi Minh City (IUH)</li>
+              <li>Major: Software Engineering</li>
+              <li>Fourth-year student</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Certificates</h3>
+            <ul role="list" class="compact-list">
+              <li>TOEIC 650 (2026)</li>
+            </ul>
+          </article>
+
+          <article class="info-card">
+            <h3>Interests</h3>
+            <div class="tag-cloud" role="list">
+              <span class="chip" role="listitem">Music</span>
+              <span class="chip" role="listitem">Sports</span>
+              <span class="chip" role="listitem">Games</span>
+            </div>
+          </article>
+        </div>
+
+      </section>
+
+      <section id="skills" class="panel" aria-labelledby="skills-title">
+        <h2 id="skills-title">Skill</h2>
+        <p class="section-lead">
+          A compact view of the tools and practices I use to build maintainable
+          backend systems.
+        </p>
+        <div class="skill-grid">
+          <article class="info-card info-card--tight">
+            <h3>Core Backend</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_java.png" alt="Java logo" />
+                <span>Java</span>
+                <span class="level-tag">Advanced • <span class="stars-filled">★★★★</span><span class="stars-empty">☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_spring.png" alt="Spring Boot logo" />
+                <span>Spring Boot</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="info-card info-card--tight">
+            <h3>Data and APIs</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_mysql.png" alt="MySQL logo" />
+                <span>MySQL</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_MongoDB.png" alt="MongoDB logo" />
+                <span>MongoDB</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_restAPI.png" alt="RESTful API icon" />
+                <span>RESTful API</span>
+                <span class="level-tag">Advanced • <span class="stars-filled">★★★★</span><span class="stars-empty">☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_websocket.png" alt="WebSocket icon" />
+                <span>WebSocket</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="info-card info-card--tight">
+            <h3>Delivery and Tools</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_docker.png" alt="Docker logo" />
+                <span>Docker</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_git.png" alt="Git logo" />
+                <span>Git</span>
+                <span class="level-tag">Advanced • <span class="stars-filled">★★★★</span><span class="stars-empty">☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_github.png" alt="GitHub logo" />
+                <span>GitHub</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+              <li class="skill-item" role="listitem">
+                <img src="img/logo_gitlab.png" alt="GitLab logo" />
+                <span>GitLab</span>
+                <span class="level-tag">Intermediate • <span class="stars-filled">★★★</span><span class="stars-empty">☆☆</span></span>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="soft-skill-box">
+          <h3>Soft Skills</h3>
+          <ul role="list">
+            <li>Logical thinking</li>
+            <li>Fast learner</li>
+            <li>Responsible mindset</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="panel" aria-labelledby="projects-title">
+        <h2 id="projects-title">Project</h2>
+        <p class="section-lead">
+          Two backend projects that show product thinking, real-time systems,
+          and scalable implementation.
+        </p>
+        <div class="project-grid">
+          <article class="project-card">
+            <header>
+              <h3>Multi-category E-commerce Website</h3>
+              <p class="meta">03/2026 - 06/2026 | Team of 5</p>
+            </header>
+            <figure class="project-media">
+              <img src="img/Store_review.png" alt="E-commerce project screenshot" />
+            </figure>
+            <div class="project-tags" role="list">
+              <span class="chip" role="listitem">Java</span>
+              <span class="chip" role="listitem">Spring Boot</span>
+              <span class="chip" role="listitem">Security</span>
+            </div>
+            <p>
+              Designed and developed an online store for the local brand SLY
+              Clothing, focusing on product discovery and a secure internal
+              admin module.
+            </p>
+            <ul role="list">
+              <li>Role: Backend Developer</li>
+              <li>
+                Tech stack: Java, Spring Boot, Spring Security, Hibernate/JPA,
+                MySQL, JavaScript
+              </li>
+              <li>Delivered APIs for Home, Product, Admin, and Dashboard modules</li>
+              <li>
+                Implemented server-side filtering, searching, and pagination for
+                product listing and detail pages
+              </li>
+              <li>
+                Built staff account management with validation and secure
+                account locking
+              </li>
+              <li>
+                Controlled real-time stock by size and secured internal accounts
+                with encryption
+              </li>
+            </ul>
+            <a
+              class="text-link"
+              href="https://github.com/LeTanPhong3003/Store-Project"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View repository</a
+            >
+          </article>
+
+          <article class="project-card">
+            <header>
+              <h3>Bin Chat - Real-time Messaging System</h3>
+              <p class="meta">02/2026 - 06/2026 | Team of 3</p>
+            </header>
+            <figure class="project-media">
+              <img src="img/Chat_review.png" alt="Bin Chat login screenshot" />
+            </figure>
+            <div class="project-tags" role="list">
+              <span class="chip" role="listitem">NestJS</span>
+              <span class="chip" role="listitem">Kafka</span>
+              <span class="chip" role="listitem">Socket.IO</span>
+            </div>
+            <p>
+              Built a large-scale real-time messaging system using Microservices
+              and event-driven architecture, supporting multi-platform
+              communication, media processing, and AI integration.
+            </p>
+            <ul role="list">
+              <li>Role: Backend Developer (Microservices & Real-time)</li>
+              <li>
+                Tech stack: Node.js, NestJS, TypeScript, Socket.IO, Kafka
+                (Redpanda), PostgreSQL, AWS Lambda, Docker
+              </li>
+              <li>
+                Implemented API Gateway, Socket.IO, and Kafka Bridge for
+                real-time data transfer and call signaling
+              </li>
+              <li>
+                Designed and implemented Friend Service supporting friend
+                requests, accept/reject flow, pinned conversations, group
+                permissions, 20+ REST APIs, and WebSocket integration
+              </li>
+              <li>
+                Used AWS Lambda to asynchronously compress and distribute media
+                files, reducing core system load
+              </li>
+            </ul>
+            <a
+              class="text-link"
+              href="https://github.com/orgs/Bin-Chat/repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View organization</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="panel" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p class="form-note">
+          Feel free to send a message for internship opportunities,
+          collaboration, or backend project discussion.
+        </p>
+        <div class="contact-layout">
+          <article class="info-card contact-card">
+            <h3>Contact Details</h3>
+            <ul role="list" class="compact-list">
+              <li>
+                <span>Email:</span>
+                <a href="mailto:letanphong400@gmail.com"
+                  >letanphong400@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>Phone:</span> <a href="tel:0919128639">0919128639</a>
+              </li>
+              <li>
+                <span>LinkedIn:</span>
+                <a
+                  href="https://www.linkedin.com/in/le-tan-phong-257750391"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View profile</a
+                >
+              </li>
+              <li><span>Location:</span> Hanh Thong Ward, Ho Chi Minh City</li>
+            </ul>
+            <div class="action-row contact-actions">
+              <button class="btn btn--ghost js-copy-email" type="button" data-email="letanphong400@gmail.com"
+                >Email Me</button
+              >
+              <a
+                class="btn"
+                href="CV/Le-Tan-Phong-TopCV.vn-080626.234018.pdf"
+                download
+                >Download CV</a
+              >
+            </div>
+          </article>
+
+          <form id="contact-form" novalidate>
+            <input type="hidden" name="access_key" value="ffbec59f-0954-48de-93b1-61b0a3ebe4ea" />
+            <input type="hidden" name="subject" value="New message from Portfolio" />
+            <input type="hidden" name="from_name" value="Portfolio Contact" />
+            <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" aria-hidden="true" />
+            <div class="field-grid">
+              <label>
+                <span>Full name</span>
+                <input
+                  type="text"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  placeholder="Enter your full name"
+                />
+              </label>
+              <label>
+                <span>Email address</span>
+                <input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  placeholder="Enter your email address"
+                />
+              </label>
+              <label>
+                <span>Subject</span>
+                <input
+                  type="text"
+                  name="subject_line"
+                  required
+                  placeholder="Example: Internship opportunity"
+                />
+              </label>
+              <label>
+                <span>Message</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Write your message here"
+                ></textarea>
+              </label>
+            </div>
+            <p class="error-text" id="form-error" aria-live="polite"></p>
+            <div class="action-row">
+              <button class="btn" type="submit" id="submit-btn">Send</button>
+              <button class="btn btn--ghost" type="reset">Clear</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Le Tan Phong</p>
+      <div class="footer-links" role="list" aria-label="Footer links">
+        <a
+          href="https://github.com/LeTanPhong3003"
+          target="_blank"
+          rel="noopener noreferrer"
+          role="listitem"
+          >GitHub</
+        >
+        <a
+          href="https://www.linkedin.com/in/le-tan-phong-257750391"
+          target="_blank"
+          rel="noopener noreferrer"
+          role="listitem"
+          >LinkedIn</a
+        >
+        <a class="js-copy-email" href="#" data-email="letanphong400@gmail.com" role="listitem" aria-label="Copy email address">Email</a>
+      </div>
+    </footer>
+
+    <div id="copy-toast" role="status" aria-live="polite">Copied!</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
